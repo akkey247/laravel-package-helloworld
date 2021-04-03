@@ -10,13 +10,13 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Akkey\\HelloWorld\\": "src/"
+            "Akkey247\\HelloWorld\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Akkey\\HelloWorld\\HelloWorldServiceProvider"
+                "Akkey247\\HelloWorld\\HelloWorldServiceProvider"
             ]
         }
     }
