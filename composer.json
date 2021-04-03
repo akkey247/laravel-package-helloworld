@@ -1,0 +1,23 @@
+{
+    "name": "akkey247/helloworld",
+    "description": "hello world package.",
+    "authors": [{
+        "name": "akkey247"
+    }],
+    "require": {
+        "laravel/framework": "^6.20"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Akkey\\HelloWorld\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Akkey\\HelloWorld\\HelloWorldServiceProvider"
+            ]
+        }
+    }
+}
